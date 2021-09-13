@@ -20,7 +20,7 @@ export default function Cursos() {
         <div>
             <SEO title="Cursos"/>
             <h1>Cursos: </h1>
-            <p>curos ministrados</p>
+            <p>cursos ministrados</p>
             <ul>
                 {cursos && cursos.map(curso => {
                     return (

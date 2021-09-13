@@ -1,0 +1,15 @@
+09. INSTALAR O JEST E O LIBRARY TEST
+Para realizar testes unitarios e automatizados, de interface e end to end
+
+npm i -D jest jest-dom ts-jest @testing-library/jest-dom @testing-library/dom @testing-library/react babel-jest identity-obj-proxy
+
+cada um:
+jest (o jest em si)
+jest-dom (para manipulaçao de elementos da DOM)
+ts-jest (para que o jest consiga interpretar arquivos typescript)
+@testing-library/jest-dom (para que a testing library se integre com o jest DOM)
+@testing-library/dom (também integre diretamente com o DOM)
+@testing-library/react (também se integre com o React)
+babel-jest (para que se use o babel para fazer a transpilação do typescript para o javascript)
+identity-obj-proxy (para fazer a transpilaçao do SASS)
+

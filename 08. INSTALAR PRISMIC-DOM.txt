@@ -1,0 +1,6 @@
+08. INSTALAR PRISMIC-DOM
+Para conseguir consumir os dados do response da API
+
+npm install prismic-dom
+
+npm i --save-dev @types/prismic-dom

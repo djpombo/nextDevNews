@@ -1,0 +1,16 @@
+04. RODAR A FAKE API.JSON
+
+npx json-server api.json -p  3333 -w
+
+a estrutura indica que um "json-server" ira rodar com o arquivo api.json
+
+onde o -p indica a porta que vai rodar, neste caso a 3333, pode ser qualquer outra
+
+-w indica que o json-server vai ficar "watch", ou tb chamado de listener
+
+04.1 Para simular uma conexao lenta:
+
+npx json-server api.json -p 3333 -w -d 2000
+
+
+onde o -d 2000 indica um delay de 2000ms

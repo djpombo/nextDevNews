@@ -1,0 +1,7 @@
+nome: DevNews
+
+acess to master:
+MC5ZVGVpbnhBQUFDTUFZODdt.77-977-977-9TD3vv70uQ1vvv73vv73vv73vv71UVzYYb0MR77-977-9VjwyWB_vv73vv71LYu-_vQ
+
+endpoint:
+https://pixeloko-devnews.prismic.io/api/v2 

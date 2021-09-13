@@ -1,0 +1,5 @@
+11. FORMATACAO DE DATAS COM DATE-FNS
+
+npm install date-fns
+
+obs: somente necessario se o node for abaixo da versao 14

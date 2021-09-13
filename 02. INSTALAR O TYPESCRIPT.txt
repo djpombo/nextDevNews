@@ -1,0 +1,21 @@
+02. INSTALAR O TYPESCRIPT
+
+
+npm install -D typescript @types/react @types/node
+
+mudar os arquivos:
+
+_app.js
+index.js
+
+para
+
+_app.tsx
+index.tsx
+
+rodar a aplicação com
+
+npm run dev
+
+vai criar o file
+tsconfig.json

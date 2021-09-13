@@ -5,6 +5,6 @@ describe('render correctly', () => {
     it('text currectly', () => {
         const { getByText } = render(<Cursos />);
       
-        expect(getByText('curos ministrados')).toBeInTheDocument();
+        expect(getByText('cursos ministrados')).toBeInTheDocument();
     });
 })

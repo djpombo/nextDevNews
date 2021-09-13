@@ -1,5 +1,4 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
-import Prismic from "@prismicio/client";
 import { RichText } from "prismic-dom";
 import { getPrismicClient } from "../../services/prismic";
 import { useRouter } from 'next/router';
@@ -60,13 +59,13 @@ export const getStaticProps: GetStaticProps = async context => {
   const post = {
     slug,
     title: RichText.asText(response.data.title),
-    content: RichText.asText(response.data.content),
+    content: RichText.asHtml(response.data.content),
     updateAt: new Date(response.last_publication_date).toLocaleDateString('pt-BR',
-      {
-        day: '2-digit',
-        month: 'long',
-        year: 'numeric'
-      })
+    {
+      day: '2-digit',
+      month: 'long',
+      year: 'numeric'
+    })
   }
 
   return {
@@ -76,3 +75,4 @@ export const getStaticProps: GetStaticProps = async context => {
     revalidate: 60 * 60 * 12, //12 horas
   }
 }
+

@@ -46,7 +46,7 @@ describe('Post page', () => {
                         { type: 'heading', text: 'title for new post' },
                     ],
                     content: [
-                        { type: 'paragraph', text: '<p>post content</p>' },
+                        { type: 'paragraph', text: 'post content' },
                     ]
                 },
                 last_publication_date: '12-25-2021',

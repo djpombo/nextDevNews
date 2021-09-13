@@ -1,0 +1,3 @@
+01. CRIAÇÃO DO PROJETO
+
+npx create-next-app <nome do projeto>

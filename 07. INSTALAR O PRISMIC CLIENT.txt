@@ -1,0 +1,3 @@
+07. INSTALAR O CLIENT DO PRISMIC
+
+npm install @prismicio/client

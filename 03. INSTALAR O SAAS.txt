@@ -1,0 +1,29 @@
+03. INSTALAR O SASS
+
+npm install sass
+
+após a instalacao, mudar a extensao do arquivo de .css para .scss
+
+Para poder implementar o css encadeado, exemplo:
+
+.title {
+
+	color: red;
+
+	span{
+
+	color: blue
+	}
+}
+
+ao invés de:
+
+.title {
+
+	color: red;
+}
+
+.title span{
+
+	color: blue;
+}
